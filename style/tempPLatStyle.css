@@ -1,0 +1,75 @@
+  div.platGeneral
+    {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ccc;
+        margin-top: 50vh;
+        position: relative;
+    }
+    
+    div.platGeneral div.top
+    {
+        width: 100%;
+        height: 25vh;    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        position: relative;
+        overflow: auto;
+    }
+    
+    div.platGeneral div.bottom
+    {
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+    }
+    
+    div.platGeneral div.top div.plat
+    {
+        width: 50vw;
+        height: 48vh;
+        border-radius: 30%; 
+        position: absolute;
+        top: -25vh;
+        overflow: auto;
+        border: solid 1px #333;
+    }
+    
+    div.platGeneral div.bottom div.hero
+    {
+        height: 130%;
+        width: 15vw;
+        position: absolute;
+        left: 1vw;
+        bottom: 1vh;
+        border: solid 1px #333;
+    }
+    
+    div.platGeneral div.bottom div.hand
+    {
+        width: 50vw;
+        height: 80%;
+        border: solid 1px #333;
+        border-top-left-radius: 30%;
+        border-top-right-radius: 30%;
+    }
+    
+    div.platGeneral div.deck
+    {
+        position: absolute;
+        width: 10vw;
+        height: 30vh;
+        right: 2vw;
+        top: -15vh;
+        border: solid 1px #333;
+    }

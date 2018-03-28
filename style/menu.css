@@ -1,0 +1,46 @@
+body
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #eadfc0;
+}
+
+
+header
+{
+    background-color: #e0ca8d;
+    width: 100%;
+    height: 8vh;
+    border-bottom: solid 2px #a2925e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header figure
+{
+    width: 5vw;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 5vw;
+}
+
+header figure img
+{
+    width: 100%;
+    display: block;
+    padding-top: 0.2vh;
+}
+
+header a
+{
+    padding-right: 5vw;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #776f52;
+}

@@ -1,0 +1,38 @@
+body
+{
+    display: inherit;
+}
+
+.creaDeck
+{
+    width: 80%;
+    background-color: blue;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+.ShowDeck
+{
+    width: 20%;
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+    float: right;
+}
+
+.allCardsDeck
+{
+    width: 20%;
+    background-color: green;
+    clear: both;
+    float: right;
+
+}
+
+.addCardsDeck
+{
+    width: 80%;
+    background-color: #777;
+    float: left;
+}
